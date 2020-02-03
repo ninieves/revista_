@@ -1,0 +1,50 @@
+.contenedor{
+    width: 100vw ;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4,1fr)
+    gap 10px;
+
+}
+
+@media (min-width: 576px) { 
+    .menu{
+        width: 100vw ;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(4,1fr)
+        gap 10px;
+
+        }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .menu{
+        width: 100vw ;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(4,1fr)
+        gap 10px; 
+
+        }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .menu{
+        width: 100vw ;
+        height: 600px;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(4,1fr)
+        gap 10px;
+
+        }
+
+}
